@@ -1,12 +1,250 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>For the love of Bikes</title>
 </head>
 
 <body>
-    <header></header>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">For the Love of Bikes</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: white;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" style="color: white;">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" style="color: white;">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" style="color: white;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row row-border">
+                <div class="col-12">
+                    <img src="images/bike_wel.jpg" alt="bike" style="width: 100%;">
+                    <div class="centered">
+                        <h2 class="d-none d-sm-block">Welcome to the world of Bikes</h3><br>
+                            <blockquote><i>"It never gets easier, you just go faster so keep Riding"</i></blockquote>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row row-border" id="about">
+            <div class="col-12 col-sm-4 col-md-4 row-heading">
+                <img class="d-none d-sm-block" src="images/bicycle-lane-on-gray-concrete-road-210095.jpg" height="250px"
+                    width="250px">
+            </div>
+            <div class="col-12 col-sm col-md">
+                <h3 class="row-heading"><b>About</b></h3>
+                <p class="row-content">A Bike, is a human-powered, pedal driven, single-track vehicle, having
+                    two wheels attached to a frame, one behind the other. Bike's were first first introduced in
+                    the 19 century in Europe and till now more than one billion were in existence at a given time.
+                <p class="row-content d-none d-sm-block">Bike invention has had an enormous effect on the society, both
+                    in terms of culture and of advancing modern
+                    industrial methods.</p>
+                </p>
+            </div>
+        </div>
+        <div class="row row-border" id="gallery">
+            <div class="col-12"><h3 class="row-content" style="padding-bottom: 10px">Gallery</h3></div>
+            <div class="row col-12 justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 card-padding">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img img-fluid thumbnail" src="images/bike_beside_the_wall.jpg"
+                            alt="Bike_beside_the bike_beside_the_wall">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4  card-padding">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img img-fluid thumbnail" src="images/bike_on_road.jpg" alt="bike_on_road">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4  card-padding">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img img-fluid thumbnail" src="images/city_riding.jpg" alt="city_riding">
+                    </div>
+                </div>
+            </div>
+            <div class="row col-12 justify-content-center gallery-border">
+                <div class="col-12 col-sm-6 col-md-4 card-padding">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img img-fluid thumbnail" src="images/bike_stunt_on_road.jpg" alt="bike_stunt">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 card-padding">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img img-fluid thumbnail" src="images/nature_mountain_riding.jpg"
+                            alt="nature_mountain_riding">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 card-padding">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img img-fluid thumbnail" src="images/riding_downhill.jpg"
+                            alt="riding_downhill">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-contact" id="contact">
+            <div class="col-12">
+                <h3>Write your riding story to us</h3>
+            </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname"
+                                placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname"
+                                placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode"
+                                placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode"
+                                placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Story</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-12 col-md">
+            </div>
+        </div>
+    </div>
 
 
-    <footer></footer>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fa fa-home fa-lg"></i></a></li>
+                        <li><a href="#about"><i class="fa fa-info fa-lg"></i></a></li>
+                        <li><a href="#gallery"><i class="fa fa-list fa-lg"></i></a></li>
+                        <li><a href="#contact"><i class="fa fa-address-card fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, s-type Bay Road<br>
+                        Jamshedpur, Jharkhand<br>
+                        India<br>
+                        <i class="fa fa-phone fa-lg"></i>: +91 9234567890<br>
+                        <i class="fa fa-fax fa-lg"></i>: +91 256478932<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a
+                            href="shalabhpandeyjsr13@gmail.com">shalabh pandey</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto ">
+                    <p>© Copyright 2018</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
+</html>
